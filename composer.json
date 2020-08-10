@@ -1,0 +1,21 @@
+{
+    "name": "broken-titan/laravel-header-paginate",
+    "description": "Transforms the default pagination of the Laravel responses from body metadata to the Link header.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marshall Miller",
+            "email": "contact@marshall-miller.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/support": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrokenTitan\\HeaderPaginate\\": "src"
+        }
+    }
+}
